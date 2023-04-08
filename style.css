@@ -318,6 +318,7 @@ main h1 {
 .text article p {
   font-family: var(--font4);
   line-height: 1.8;
+  text-align: justify;
 }
 
 .text .img {
