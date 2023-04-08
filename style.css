@@ -38,7 +38,7 @@ body {
 
 .container {
   padding: 6rem 2rem;
-  max-width: 1300px;
+  max-width: 900px;
 }
 
 @media screen and (max-width: 870px) {
@@ -558,6 +558,15 @@ main h1 {
 
 .about article.supervisors {
   --dark_blue: rgb(173, 0, 0);
+}
+
+.about article.supervisors .users .user .contact {
+  margin-top: 15px;
+}
+
+.about article.supervisors .users .user h3 span {
+  display: block;
+  text-align: center;
 }
 
 .users .user.team-leader {
